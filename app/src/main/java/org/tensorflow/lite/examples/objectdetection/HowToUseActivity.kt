@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import org.tensorflow.lite.examples.objectdetection.R   // Replace with the correct package name
 import java.util.Locale
 
-class HowToUseActivity : AppCompatActivity() {
+class HowToUseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var tts: TextToSpeech
 
@@ -27,7 +27,7 @@ class HowToUseActivity : AppCompatActivity() {
             if (result == TextToSpeech.LANG_MISSING_DATA ||
                     result == TextToSpeech.LANG_NOT_SUPPORTED
             ) {
-             
+                // 지원하지 않는 언어 또는 데이터가 없는 경우의 처리
             } else {
                 // TTS 사용 가능한 상태
                 val sayTxt = ("안녕하세요, eye see에 오신걸 환영합니다. eye see는 도보 중 위험 요소인 자전거, 킥보드, 오토바이, 신호등 등 물체를 감지하여 음성으로 안내해 드립니다. 기기로 사용자의 상태를 실시간으로 측정하여, 넘어짐, 쓰러짐 등 위험 상황을 인식하고, 긴급상황 발생 시 긴급 연락처로 긴급 문자를 전송합니다").toString()
@@ -38,7 +38,6 @@ class HowToUseActivity : AppCompatActivity() {
 
         }
     }
-
     private fun speak(text: String) {
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null)
     }
