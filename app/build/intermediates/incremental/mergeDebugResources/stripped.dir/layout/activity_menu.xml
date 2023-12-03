@@ -36,7 +36,7 @@
 
 
     <ImageButton
-        android:id="@+id/linclination"
+        android:id="@+id/btnGoToHowToUse"
         android:layout_width="400dp"
         android:layout_height="191dp"
         android:layout_marginTop="136dp"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detection"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToDetection"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/menu2_size"
         tools:ignore="SpeakableTextPresentCheck" />

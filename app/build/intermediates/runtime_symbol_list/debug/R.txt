@@ -1362,6 +1362,7 @@ int id bottom 0x7f0a0054
 int id bottom_sheet_layout 0x7f0a0055
 int id bounce 0x7f0a0056
 int id btnGoToDetection 0x7f0a016c
+int id btnGoToHowToUse 0x7f0a016d
 int id buttonPanel 0x7f0a0058
 int id cache_measures 0x7f0a0059
 int id camera_container 0x7f0a005a
@@ -1380,6 +1381,7 @@ int id collapseActionView 0x7f0a0066
 int id compatible 0x7f0a0067
 int id container 0x7f0a0068
 int id content 0x7f0a0069
+int id contentLayout 0x7f0a016e
 int id contentPanel 0x7f0a006a
 int id coordinator 0x7f0a006b
 int id cos 0x7f0a006c
@@ -1397,7 +1399,6 @@ int id design_menu_item_action_area 0x7f0a0077
 int id design_menu_item_action_area_stub 0x7f0a0078
 int id design_menu_item_text 0x7f0a0079
 int id design_navigation_view 0x7f0a007a
-int id detection 0x7f0a007b
 int id dialog_button 0x7f0a007c
 int id dimensions 0x7f0a007d
 int id direct 0x7f0a007e
@@ -1466,7 +1467,6 @@ int id labeled 0x7f0a00bc
 int id largeLabel 0x7f0a00bd
 int id layout 0x7f0a00be
 int id left 0x7f0a00bf
-int id linclination 0x7f0a00c0
 int id line1 0x7f0a00c1
 int id line3 0x7f0a00c2
 int id linear 0x7f0a00c3
@@ -1608,6 +1608,7 @@ int id threshold_value 0x7f0a014b
 int id time 0x7f0a014c
 int id title 0x7f0a014d
 int id titleDividerNoCustom 0x7f0a014e
+int id titleTextView 0x7f0a016f
 int id title_template 0x7f0a014f
 int id toggle 0x7f0a0150
 int id top 0x7f0a0152
@@ -1692,6 +1693,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0d0018
 int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
+int layout activity_howtouse 0x7f0d003c
 int layout activity_intro 0x7f0d001c
 int layout activity_main 0x7f0d001d
 int layout activity_menu 0x7f0d001e

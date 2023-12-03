@@ -24,17 +24,17 @@ public final class ActivityMenuBinding implements ViewBinding {
   public final ImageButton btnGoToDetection;
 
   @NonNull
-  public final ImageButton linclination;
+  public final ImageButton btnGoToHowToUse;
 
   @NonNull
   public final TextView textView2;
 
   private ActivityMenuBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btnGoToDetection, @NonNull ImageButton linclination,
+      @NonNull ImageButton btnGoToDetection, @NonNull ImageButton btnGoToHowToUse,
       @NonNull TextView textView2) {
     this.rootView = rootView;
     this.btnGoToDetection = btnGoToDetection;
-    this.linclination = linclination;
+    this.btnGoToHowToUse = btnGoToHowToUse;
     this.textView2 = textView2;
   }
 
@@ -71,9 +71,9 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linclination;
-      ImageButton linclination = ViewBindings.findChildViewById(rootView, id);
-      if (linclination == null) {
+      id = R.id.btnGoToHowToUse;
+      ImageButton btnGoToHowToUse = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoToHowToUse == null) {
         break missingId;
       }
 
@@ -83,7 +83,7 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMenuBinding((ConstraintLayout) rootView, btnGoToDetection, linclination,
+      return new ActivityMenuBinding((ConstraintLayout) rootView, btnGoToDetection, btnGoToHowToUse,
           textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);

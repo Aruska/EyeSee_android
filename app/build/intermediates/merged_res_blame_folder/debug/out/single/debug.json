@@ -8,12 +8,12 @@
         "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_foreground.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_foreground.webp"
-    },
-    {
         "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus.xml.flat",
         "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_foreground.webp.flat",
+        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_foreground.webp"
     },
     {
         "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_eyesee_icon.xml.flat",
@@ -218,6 +218,10 @@
     {
         "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\color_selector_ic.xml.flat",
         "source": "C:\\workspace\\android\\app\\src\\main\\res\\color\\selector_ic.xml"
+    },
+    {
+        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_howtouse.xml.flat",
+        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
     },
     {
         "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",

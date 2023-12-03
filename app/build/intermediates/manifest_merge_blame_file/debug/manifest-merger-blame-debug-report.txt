@@ -45,7 +45,7 @@
 37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 38
 39    <application
-39-->C:\workspace\android\app\src\main\AndroidManifest.xml:32:5-81:19
+39-->C:\workspace\android\app\src\main\AndroidManifest.xml:32:5-85:19
 40        android:allowBackup="true"
 40-->C:\workspace\android\app\src\main\AndroidManifest.xml:36:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -113,18 +113,22 @@
 78            </intent-filter>
 79        </activity>
 80        <activity
-80-->C:\workspace\android\app\src\main\AndroidManifest.xml:71:9-79:20
+80-->C:\workspace\android\app\src\main\AndroidManifest.xml:71:9-76:20
 81            android:name="org.tensorflow.lite.examples.objectdetection.MenuActivity"
 81-->C:\workspace\android\app\src\main\AndroidManifest.xml:72:13-41
 82            android:screenOrientation="portrait"
 82-->C:\workspace\android\app\src\main\AndroidManifest.xml:74:13-49
 83            android:theme="@style/AppTheme" >
 83-->C:\workspace\android\app\src\main\AndroidManifest.xml:73:13-44
-84
-85            <!-- <intent-filter> -->
-86            <!-- <action android:name="android.intent.action.MAIN" /> -->
-87            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-88            <!-- </intent-filter> -->
+84        </activity>
+85        <activity
+85-->C:\workspace\android\app\src\main\AndroidManifest.xml:78:9-83:20
+86            android:name="org.tensorflow.lite.examples.objectdetection.HowToUseActivity"
+86-->C:\workspace\android\app\src\main\AndroidManifest.xml:79:13-45
+87            android:screenOrientation="portrait"
+87-->C:\workspace\android\app\src\main\AndroidManifest.xml:81:13-49
+88            android:theme="@style/AppTheme" >
+88-->C:\workspace\android\app\src\main\AndroidManifest.xml:80:13-44
 89        </activity>
 90
 91        <uses-library

@@ -1363,6 +1363,7 @@ id bottom
 id bottom_sheet_layout
 id bounce
 id btnGoToDetection
+id btnGoToHowToUse
 id buttonPanel
 id cache_measures
 id camera_container
@@ -1381,6 +1382,7 @@ id collapseActionView
 id compatible
 id container
 id content
+id contentLayout
 id contentPanel
 id coordinator
 id cos
@@ -1398,7 +1400,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detection
 id dialog_button
 id dimensions
 id direct
@@ -1467,7 +1468,6 @@ id labeled
 id largeLabel
 id layout
 id left
-id linclination
 id line1
 id line3
 id linear
@@ -1609,6 +1609,7 @@ id threshold_value
 id time
 id title
 id titleDividerNoCustom
+id titleTextView
 id title_template
 id toggle
 id top
@@ -1693,6 +1694,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_howtouse
 layout activity_intro
 layout activity_main
 layout activity_menu
