@@ -1,278 +1,278 @@
 [
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_foreground.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_foreground.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_font.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\font.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_foreground.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_foreground.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_eyesee_icon.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_eyesee_icon.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_background.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_background.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn3.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\btn3.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_dotum_medium.ttf.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\kopub_dotum_medium.ttf"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_background.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_background.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon_round.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon_round.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon_background.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon_background.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\color_selector_ic.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\color\\selector_ic.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon_round.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon_round.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_batang_bold.ttf.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\kopub_batang_bold.ttf"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icn_chevron_up.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\icn_chevron_up.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\layout_info_bottom_sheet.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon_round.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon_round.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn4.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\btn4.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn4.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\btn4.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_dotum_bold.ttf.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\kopub_dotum_bold.ttf"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_howtouse.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu1_size.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\menu1_size.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_dotum_light.ttf.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\kopub_dotum_light.ttf"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\ic_plus.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon_foreground.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon_foreground.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\ic_minus.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn1.jpg.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\btn1.jpg"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_dotum_medium.ttf.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\kopub_dotum_medium.ttf"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_dotum_bold.ttf.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\kopub_dotum_bold.ttf"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon_round.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon_round.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_batang_medium.ttf.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\kopub_batang_medium.ttf"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon_background.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon_background.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_camera.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn3.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\btn3.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu2_size.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\menu2_size.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_eyesee_icon_background.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\ic_eyesee_icon_background.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn1.jpg.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\btn1.jpg"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon_foreground.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon_foreground.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_round.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_round.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_font.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\font.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon_foreground.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon_foreground.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn2.jpg.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\btn2.jpg"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn2.jpg.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\btn2.jpg"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_camera.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon_background.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon_background.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon_background.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon_background.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_info_bottom_sheet.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon_round.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon_round.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_eyesee_icon.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_eyesee_icon.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_intro.gif.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\intro.gif"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon_round.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon_round.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icn_chevron_up.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\icn_chevron_up.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\workspace\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon_round.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon_round.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon_foreground.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon_foreground.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_eyesee_icon.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_eyesee_icon.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon_background.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon_background.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_eyesee_icon_round.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_eyesee_icon_round.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_batang_light.ttf.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\kopub_batang_light.ttf"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon_background.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon_background.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon_round.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon_round.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu2_size.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\menu2_size.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon_foreground.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon_foreground.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_intro.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_intro.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_tfl_logo.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable-v24\\tfl_logo.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_batang_medium.ttf.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\kopub_batang_medium.ttf"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_menu.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon_background.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon_background.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_eyesee_icon_foreground.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_eyesee_icon_foreground.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\ic_minus.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\color_selector_ic.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\color\\selector_ic.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu1_size.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\menu1_size.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_howtouse.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_eyesee_icon_background.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\ic_eyesee_icon_background.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_dotum_light.ttf.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\kopub_dotum_light.ttf"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon_background.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon_background.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_intro.gif.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\intro.gif"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_batang_light.ttf.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\font\\kopub_batang_light.ttf"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\font_kopub_batang_bold.ttf.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\font\\kopub_batang_bold.ttf"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_eyesee_icon_foreground.webp.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_eyesee_icon_foreground.webp"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_bg.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\drawable\\logo_bg.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_eyesee_icon_round.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-hdpi\\ic_eyesee_icon_round.webp"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_bg.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable\\logo_bg.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_tfl_logo.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\drawable-v24\\tfl_logo.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_intro.xml.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_eyesee_icon_round.xml.flat",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_eyesee_icon_round.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_eyesee_icon_foreground.webp.flat",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_eyesee_icon_foreground.webp"
     }
 ]

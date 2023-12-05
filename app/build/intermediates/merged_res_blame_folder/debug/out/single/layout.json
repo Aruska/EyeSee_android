@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_bottom_sheet.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_intro.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_howtouse.xml",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_howtouse.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_bottom_sheet.xml",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+        "merged": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_menu.xml"
     }
 ]

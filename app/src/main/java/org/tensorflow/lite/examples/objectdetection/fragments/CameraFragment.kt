@@ -343,7 +343,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                 imageWidth
             )
 
-            // Force a redraw
+            // Force a redraw[
             fragmentCameraBinding.overlay.invalidate()
         }
     }

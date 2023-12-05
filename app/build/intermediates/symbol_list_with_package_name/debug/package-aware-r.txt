@@ -1499,6 +1499,7 @@ id on
 id onAttachStateChangeListener
 id onDateChanged
 id outline
+id overlay
 id packed
 id parallax
 id parent

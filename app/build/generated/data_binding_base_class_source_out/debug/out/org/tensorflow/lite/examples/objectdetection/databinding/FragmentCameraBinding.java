@@ -13,6 +13,7 @@ import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
+import org.tensorflow.lite.examples.objectdetection.OverlayView;
 import org.tensorflow.lite.examples.objectdetection.R;
 
 public final class FragmentCameraBinding implements ViewBinding {
@@ -23,12 +24,17 @@ public final class FragmentCameraBinding implements ViewBinding {
   public final CoordinatorLayout cameraContainer;
 
   @NonNull
+  public final OverlayView overlay;
+
+  @NonNull
   public final PreviewView viewFinder;
 
   private FragmentCameraBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull CoordinatorLayout cameraContainer, @NonNull PreviewView viewFinder) {
+      @NonNull CoordinatorLayout cameraContainer, @NonNull OverlayView overlay,
+      @NonNull PreviewView viewFinder) {
     this.rootView = rootView;
     this.cameraContainer = cameraContainer;
+    this.overlay = overlay;
     this.viewFinder = viewFinder;
   }
 
@@ -61,13 +67,20 @@ public final class FragmentCameraBinding implements ViewBinding {
     missingId: {
       CoordinatorLayout cameraContainer = (CoordinatorLayout) rootView;
 
+      id = R.id.overlay;
+      OverlayView overlay = ViewBindings.findChildViewById(rootView, id);
+      if (overlay == null) {
+        break missingId;
+      }
+
       id = R.id.view_finder;
       PreviewView viewFinder = ViewBindings.findChildViewById(rootView, id);
       if (viewFinder == null) {
         break missingId;
       }
 
-      return new FragmentCameraBinding((CoordinatorLayout) rootView, cameraContainer, viewFinder);
+      return new FragmentCameraBinding((CoordinatorLayout) rootView, cameraContainer, overlay,
+          viewFinder);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
