@@ -19,6 +19,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: "androidx.navigation.safeargs"
 apply plugin: 'de.undercouch.download'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 32
@@ -127,5 +128,9 @@ dependencies {
 
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
 
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database'
 
 }

@@ -4,7 +4,7 @@
             "outputFile": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\99ecb97aa894d1975eddebbf3b9f8412\\transformed\\appcompat-1.3.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\androidStudioWorkspace\\examples-master\\lite\\examples\\object_detection\\android\\.gradle\\8.0\\caches\\transforms-3\\0221f147a9d8f2740470cbee1fd6af30\\transformed\\appcompat-1.3.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\b496115728708e731ec2848504a020e2\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\androidStudioWorkspace\\examples-master\\lite\\examples\\object_detection\\android\\.gradle\\8.0\\caches\\transforms-3\\f8f4ccf11031fe17f3ca11db7576521d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,7 +4,7 @@
             "outputFile": "C:\\androidStudioWorkspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\99ecb97aa894d1975eddebbf3b9f8412\\transformed\\appcompat-1.3.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\androidStudioWorkspace\\examples-master\\lite\\examples\\object_detection\\android\\.gradle\\8.0\\caches\\transforms-3\\0221f147a9d8f2740470cbee1fd6af30\\transformed\\appcompat-1.3.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

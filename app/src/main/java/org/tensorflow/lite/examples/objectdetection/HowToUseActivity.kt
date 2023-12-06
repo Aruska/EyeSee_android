@@ -25,7 +25,7 @@ class HowToUseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             val result = tts.setLanguage(Locale.KOREAN)
 
             if (result == TextToSpeech.LANG_MISSING_DATA ||
-                    result == TextToSpeech.LANG_NOT_SUPPORTED
+                result == TextToSpeech.LANG_NOT_SUPPORTED
             ) {
                 // 지원하지 않는 언어 또는 데이터가 없는 경우
             } else {
