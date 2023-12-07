@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity2">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/accelerationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acceleration: X=0.0, Y=0.0, Z=0.0"
+        android:layout_below="@id/startButton"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/gyroscopeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope: X=0.0, Y=0.0, Z=0.0"
+        android:layout_below="@id/accelerationTextView"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

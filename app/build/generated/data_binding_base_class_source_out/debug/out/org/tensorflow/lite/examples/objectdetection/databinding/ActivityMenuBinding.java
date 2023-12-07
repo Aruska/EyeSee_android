@@ -21,20 +21,28 @@ public final class ActivityMenuBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton btnGoQwer;
+
+  @NonNull
   public final ImageButton btnGoToDetection;
 
   @NonNull
   public final ImageButton btnGoToHowToUse;
 
   @NonNull
+  public final ImageButton btnGoToTest;
+
+  @NonNull
   public final TextView textView2;
 
-  private ActivityMenuBinding(@NonNull ConstraintLayout rootView,
+  private ActivityMenuBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnGoQwer,
       @NonNull ImageButton btnGoToDetection, @NonNull ImageButton btnGoToHowToUse,
-      @NonNull TextView textView2) {
+      @NonNull ImageButton btnGoToTest, @NonNull TextView textView2) {
     this.rootView = rootView;
+    this.btnGoQwer = btnGoQwer;
     this.btnGoToDetection = btnGoToDetection;
     this.btnGoToHowToUse = btnGoToHowToUse;
+    this.btnGoToTest = btnGoToTest;
     this.textView2 = textView2;
   }
 
@@ -65,6 +73,12 @@ public final class ActivityMenuBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnGoQwer;
+      ImageButton btnGoQwer = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoQwer == null) {
+        break missingId;
+      }
+
       id = R.id.btnGoToDetection;
       ImageButton btnGoToDetection = ViewBindings.findChildViewById(rootView, id);
       if (btnGoToDetection == null) {
@@ -77,14 +91,20 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnGoToTest;
+      ImageButton btnGoToTest = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoToTest == null) {
+        break missingId;
+      }
+
       id = R.id.textView2;
       TextView textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
         break missingId;
       }
 
-      return new ActivityMenuBinding((ConstraintLayout) rootView, btnGoToDetection, btnGoToHowToUse,
-          textView2);
+      return new ActivityMenuBinding((ConstraintLayout) rootView, btnGoQwer, btnGoToDetection,
+          btnGoToHowToUse, btnGoToTest, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

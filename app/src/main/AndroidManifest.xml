@@ -27,6 +27,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <!-- Declare permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -81,6 +82,52 @@
             android:screenOrientation="portrait">
 
         </activity>
+
+        <activity
+            android:name=".TestActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".TestActivity2"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".CombineActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".TestActivity3"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+
+
+        <service
+            android:name=".SensorService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".SensorService2"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".SensorService3"
+            android:enabled="true"
+            android:exported="false" />
 
     </application>
 

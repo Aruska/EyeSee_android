@@ -1,26 +1,42 @@
 [
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_bottom_sheet.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_bottom_sheet.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_intro.xml"
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test_2.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_test_2.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_howtouse.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_howtouse.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_howtouse.xml"
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
     {
-        "merged": "C:\\workspace\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
-        "source": "C:\\workspace\\android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test3.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_test3.xml"
+    },
+    {
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\workspace\\EyeSee_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop.xml",
+        "source": "E:\\workspace\\EyeSee_android\\app\\src\\main\\res\\layout\\activity_pop.xml"
     }
 ]

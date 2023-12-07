@@ -22,154 +22,289 @@
 22
 23    <uses-sdk
 24        android:minSdkVersion="21"
-24-->C:\workspace\android\app\src\main\AndroidManifest.xml
+24-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml
 25        android:targetSdkVersion="32" />
-25-->C:\workspace\android\app\src\main\AndroidManifest.xml
+25-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml
 26
 27    <!-- Enable instant app support -->
 28    <dist:module dist:instant="true" />
-28-->C:\workspace\android\app\src\main\AndroidManifest.xml:24:5-40
-28-->C:\workspace\android\app\src\main\AndroidManifest.xml:24:18-37
+28-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:24:5-40
+28-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:24:18-37
 29
 30    <!-- Declare features -->
 31    <uses-feature android:name="android.hardware.camera" />
-31-->C:\workspace\android\app\src\main\AndroidManifest.xml:27:5-60
-31-->C:\workspace\android\app\src\main\AndroidManifest.xml:27:19-57
+31-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:27:5-60
+31-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:27:19-57
 32
 33    <!-- Declare permissions -->
-34    <uses-permission android:name="android.permission.CAMERA" />
-34-->C:\workspace\android\app\src\main\AndroidManifest.xml:30:5-65
-34-->C:\workspace\android\app\src\main\AndroidManifest.xml:30:22-62
-35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-36    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-38
-39    <application
-39-->C:\workspace\android\app\src\main\AndroidManifest.xml:32:5-85:19
-40        android:allowBackup="true"
-40-->C:\workspace\android\app\src\main\AndroidManifest.xml:36:9-35
-41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.6.0] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\01ff485055a7a396c5efcb2f6f7324d0\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-42        android:debuggable="true"
-43        android:icon="@mipmap/ic_eyesee_icon"
-43-->C:\workspace\android\app\src\main\AndroidManifest.xml:33:9-46
-44        android:label="@string/app_name"
-44-->C:\workspace\android\app\src\main\AndroidManifest.xml:35:9-41
-45        android:roundIcon="@mipmap/ic_eyesee_icon_round"
-45-->C:\workspace\android\app\src\main\AndroidManifest.xml:34:9-57
-46        android:taskAffinity=""
-46-->C:\workspace\android\app\src\main\AndroidManifest.xml:37:9-32
-47        android:testOnly="true" >
-48        <activity
-48-->C:\workspace\android\app\src\main\AndroidManifest.xml:40:9-60:20
-49            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
-49-->C:\workspace\android\app\src\main\AndroidManifest.xml:41:13-41
-50            android:clearTaskOnLaunch="true"
-50-->C:\workspace\android\app\src\main\AndroidManifest.xml:42:13-45
-51            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-51-->C:\workspace\android\app\src\main\AndroidManifest.xml:47:13-91
-52            android:exported="true"
-52-->C:\workspace\android\app\src\main\AndroidManifest.xml:44:13-36
-53            android:resizeableActivity="true"
-53-->C:\workspace\android\app\src\main\AndroidManifest.xml:46:13-46
-54            android:rotationAnimation="seamless"
-54-->C:\workspace\android\app\src\main\AndroidManifest.xml:45:13-49
-55            android:theme="@style/AppTheme" >
-55-->C:\workspace\android\app\src\main\AndroidManifest.xml:43:13-44
-56
-57            <!-- Main app intent filter -->
-58            <!-- <intent-filter> -->
-59            <!-- <action android:name="android.intent.action.MAIN" /> -->
-60            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-61            <!-- <action android:name="android.intent.action.TTS_SERVICE" /> -->
-62            <!-- </intent-filter> -->
-63
-64
-65            <!-- Declare notch support -->
-66            <meta-data
-66-->C:\workspace\android\app\src\main\AndroidManifest.xml:58:13-83
-67                android:name="android.notch_support"
-67-->C:\workspace\android\app\src\main\AndroidManifest.xml:58:24-60
-68                android:value="true" />
-68-->C:\workspace\android\app\src\main\AndroidManifest.xml:58:61-81
-69        </activity>
-70        <activity
-70-->C:\workspace\android\app\src\main\AndroidManifest.xml:61:9-69:20
-71            android:name="org.tensorflow.lite.examples.objectdetection.IntroActivity"
-71-->C:\workspace\android\app\src\main\AndroidManifest.xml:62:13-42
-72            android:exported="true"
-72-->C:\workspace\android\app\src\main\AndroidManifest.xml:63:13-36
-73            android:theme="@style/AppTheme" >
-73-->C:\workspace\android\app\src\main\AndroidManifest.xml:64:13-44
-74            <intent-filter>
-74-->C:\workspace\android\app\src\main\AndroidManifest.xml:65:13-68:29
-75                <action android:name="android.intent.action.MAIN" />
-75-->C:\workspace\android\app\src\main\AndroidManifest.xml:66:17-69
-75-->C:\workspace\android\app\src\main\AndroidManifest.xml:66:25-66
-76
-77                <category android:name="android.intent.category.LAUNCHER" />
-77-->C:\workspace\android\app\src\main\AndroidManifest.xml:67:17-77
-77-->C:\workspace\android\app\src\main\AndroidManifest.xml:67:27-74
-78            </intent-filter>
-79        </activity>
-80        <activity
-80-->C:\workspace\android\app\src\main\AndroidManifest.xml:71:9-76:20
-81            android:name="org.tensorflow.lite.examples.objectdetection.MenuActivity"
-81-->C:\workspace\android\app\src\main\AndroidManifest.xml:72:13-41
-82            android:screenOrientation="portrait"
-82-->C:\workspace\android\app\src\main\AndroidManifest.xml:74:13-49
-83            android:theme="@style/AppTheme" >
-83-->C:\workspace\android\app\src\main\AndroidManifest.xml:73:13-44
-84        </activity>
-85        <activity
-85-->C:\workspace\android\app\src\main\AndroidManifest.xml:78:9-83:20
-86            android:name="org.tensorflow.lite.examples.objectdetection.HowToUseActivity"
-86-->C:\workspace\android\app\src\main\AndroidManifest.xml:79:13-45
-87            android:screenOrientation="portrait"
-87-->C:\workspace\android\app\src\main\AndroidManifest.xml:81:13-49
-88            android:theme="@style/AppTheme" >
-88-->C:\workspace\android\app\src\main\AndroidManifest.xml:80:13-44
-89        </activity>
-90
-91        <uses-library
-91-->[androidx.window:window:1.0.0-alpha09] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\8e332870b9c5208c6f10e4333e07be43\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
-92            android:name="androidx.window.extensions"
-92-->[androidx.window:window:1.0.0-alpha09] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\8e332870b9c5208c6f10e4333e07be43\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
-93            android:required="false" />
-93-->[androidx.window:window:1.0.0-alpha09] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\8e332870b9c5208c6f10e4333e07be43\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
-94        <uses-library
-94-->[androidx.window:window:1.0.0-alpha09] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\8e332870b9c5208c6f10e4333e07be43\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
-95            android:name="androidx.window.sidecar"
-95-->[androidx.window:window:1.0.0-alpha09] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\8e332870b9c5208c6f10e4333e07be43\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
-96            android:required="false" />
-96-->[androidx.window:window:1.0.0-alpha09] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\8e332870b9c5208c6f10e4333e07be43\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
-97
-98        <service
-98-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
-99            android:name="androidx.camera.core.impl.MetadataHolderService"
-99-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
-100            android:enabled="false"
-100-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
-101            android:exported="false" >
-101-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
-102            <meta-data
-102-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
-103                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-103-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
-104                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-104-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\19a018275387776d362452ec74f2945a\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
-105        </service>
-106
-107        <provider
-107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\fdb4d2b3c95f26a717a2d8fd0b9400c1\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\fdb4d2b3c95f26a717a2d8fd0b9400c1\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-109            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
-109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\fdb4d2b3c95f26a717a2d8fd0b9400c1\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-110            android:exported="false"
-110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\fdb4d2b3c95f26a717a2d8fd0b9400c1\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-111            android:multiprocess="true" />
-111-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\workspace\Demo-master\gradle\wrapper\caches\transforms-3\fdb4d2b3c95f26a717a2d8fd0b9400c1\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-112    </application>
-113
-114</manifest>
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:30:5-79
+34-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:30:22-76
+35    <uses-permission android:name="android.permission.CAMERA" />
+35-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:31:5-65
+35-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:31:22-62
+36
+37    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+38    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+39    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+39-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+39-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:22-76
+40    <uses-permission android:name="android.permission.INTERNET" />
+40-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
+40-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:22-64
+41    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+44
+45    <application
+45-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:33:5-132:19
+46        android:allowBackup="true"
+46-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:37:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.6.0] C:\Users\a\.gradle\caches\transforms-3\23546bf18f612becd1b123b39416c124\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_eyesee_icon"
+49-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:34:9-46
+50        android:label="@string/app_name"
+50-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:36:9-41
+51        android:roundIcon="@mipmap/ic_eyesee_icon_round"
+51-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:35:9-57
+52        android:taskAffinity=""
+52-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:38:9-32
+53        android:testOnly="true" >
+54        <activity
+54-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:41:9-61:20
+55            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+55-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:42:13-41
+56            android:clearTaskOnLaunch="true"
+56-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:43:13-45
+57            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+57-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:48:13-91
+58            android:exported="true"
+58-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:45:13-36
+59            android:resizeableActivity="true"
+59-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:47:13-46
+60            android:rotationAnimation="seamless"
+60-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:46:13-49
+61            android:theme="@style/AppTheme" >
+61-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:44:13-44
+62
+63            <!-- Main app intent filter -->
+64            <!-- <intent-filter> -->
+65            <!-- <action android:name="android.intent.action.MAIN" /> -->
+66            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+67            <!-- <action android:name="android.intent.action.TTS_SERVICE" /> -->
+68            <!-- </intent-filter> -->
+69
+70
+71            <!-- Declare notch support -->
+72            <meta-data
+72-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:59:13-83
+73                android:name="android.notch_support"
+73-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:59:24-60
+74                android:value="true" />
+74-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:59:61-81
+75        </activity>
+76        <activity
+76-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:62:9-70:20
+77            android:name="org.tensorflow.lite.examples.objectdetection.IntroActivity"
+77-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:63:13-42
+78            android:exported="true"
+78-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:64:13-36
+79            android:theme="@style/AppTheme" >
+79-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:65:13-44
+80            <intent-filter>
+80-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:66:13-69:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:67:17-69
+81-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:67:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:68:17-77
+83-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:68:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:72:9-77:20
+87            android:name="org.tensorflow.lite.examples.objectdetection.MenuActivity"
+87-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:73:13-41
+88            android:screenOrientation="portrait"
+88-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:75:13-49
+89            android:theme="@style/AppTheme" >
+89-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:74:13-44
+90        </activity>
+91        <activity
+91-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:79:9-84:20
+92            android:name="org.tensorflow.lite.examples.objectdetection.HowToUseActivity"
+92-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:80:13-45
+93            android:screenOrientation="portrait"
+93-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:82:13-49
+94            android:theme="@style/AppTheme" >
+94-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:81:13-44
+95        </activity>
+96        <activity
+96-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:86:9-91:20
+97            android:name="org.tensorflow.lite.examples.objectdetection.TestActivity"
+97-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:87:13-41
+98            android:screenOrientation="portrait"
+98-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:89:13-49
+99            android:theme="@style/AppTheme" >
+99-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:88:13-44
+100        </activity>
+101        <activity
+101-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:93:9-98:20
+102            android:name="org.tensorflow.lite.examples.objectdetection.TestActivity2"
+102-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:94:13-42
+103            android:screenOrientation="portrait"
+103-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:96:13-49
+104            android:theme="@style/AppTheme" >
+104-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:95:13-44
+105        </activity>
+106        <activity
+106-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:100:9-105:20
+107            android:name="org.tensorflow.lite.examples.objectdetection.CombineActivity"
+107-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:101:13-44
+108            android:screenOrientation="portrait"
+108-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:103:13-49
+109            android:theme="@style/AppTheme" >
+109-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:102:13-44
+110        </activity>
+111        <activity
+111-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:107:9-112:20
+112            android:name="org.tensorflow.lite.examples.objectdetection.TestActivity3"
+112-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:108:13-42
+113            android:screenOrientation="portrait"
+113-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:110:13-49
+114            android:theme="@style/AppTheme" >
+114-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:109:13-44
+115        </activity>
+116
+117        <service
+117-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:117:9-120:40
+118            android:name="org.tensorflow.lite.examples.objectdetection.SensorService"
+118-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:118:13-42
+119            android:enabled="true"
+119-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:119:13-35
+120            android:exported="false" />
+120-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:120:13-37
+121        <service
+121-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:122:9-125:40
+122            android:name="org.tensorflow.lite.examples.objectdetection.SensorService2"
+122-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:123:13-43
+123            android:enabled="true"
+123-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:124:13-35
+124            android:exported="false" />
+124-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:125:13-37
+125        <service
+125-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:127:9-130:40
+126            android:name="org.tensorflow.lite.examples.objectdetection.SensorService3"
+126-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:128:13-43
+127            android:enabled="true"
+127-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:129:13-35
+128            android:exported="false" />
+128-->E:\workspace\EyeSee_android\app\src\main\AndroidManifest.xml:130:13-37
+129        <service
+129-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+130            android:name="com.google.firebase.components.ComponentDiscoveryService"
+130-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:27:13-84
+131            android:directBootAware="true"
+131-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+132            android:exported="false" >
+132-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:28:13-37
+133            <meta-data
+133-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+134                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+134-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+137                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+137-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-database:20.3.0] C:\Users\a\.gradle\caches\transforms-3\0c06914a56ab6070c9783bcdf97369fe\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\a\.gradle\caches\transforms-3\673bfd8c7d80c2eefffe96e2a4bf7a34\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+140                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+140-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\a\.gradle\caches\transforms-3\673bfd8c7d80c2eefffe96e2a4bf7a34\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\a\.gradle\caches\transforms-3\673bfd8c7d80c2eefffe96e2a4bf7a34\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+143                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+143-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+145        </service>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+149            android:authorities="org.tensorflow.lite.examples.objectdetection.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.4.2] C:\Users\a\.gradle\caches\transforms-3\08b6172c78d7fd5f91aaab909287010e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+153
+154        <uses-library
+154-->[androidx.window:window:1.0.0-alpha09] C:\Users\a\.gradle\caches\transforms-3\e24e08f8ae1a50f4a081b07e8fe75e59\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+155            android:name="androidx.window.extensions"
+155-->[androidx.window:window:1.0.0-alpha09] C:\Users\a\.gradle\caches\transforms-3\e24e08f8ae1a50f4a081b07e8fe75e59\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+156            android:required="false" />
+156-->[androidx.window:window:1.0.0-alpha09] C:\Users\a\.gradle\caches\transforms-3\e24e08f8ae1a50f4a081b07e8fe75e59\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+157        <uses-library
+157-->[androidx.window:window:1.0.0-alpha09] C:\Users\a\.gradle\caches\transforms-3\e24e08f8ae1a50f4a081b07e8fe75e59\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+158            android:name="androidx.window.sidecar"
+158-->[androidx.window:window:1.0.0-alpha09] C:\Users\a\.gradle\caches\transforms-3\e24e08f8ae1a50f4a081b07e8fe75e59\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+159            android:required="false" />
+159-->[androidx.window:window:1.0.0-alpha09] C:\Users\a\.gradle\caches\transforms-3\e24e08f8ae1a50f4a081b07e8fe75e59\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+160
+161        <service
+161-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+162            android:name="androidx.camera.core.impl.MetadataHolderService"
+162-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+163            android:enabled="false"
+163-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+164            android:exported="false" >
+164-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+165            <meta-data
+165-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+166                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+166-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+167                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+167-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\a\.gradle\caches\transforms-3\19d2ef9eac53cf5a459de00170439190\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+168        </service>
+169
+170        <activity
+170-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\a\.gradle\caches\transforms-3\e4e2399e070c7daa9a934f2e01a096c2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+171            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+171-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\a\.gradle\caches\transforms-3\e4e2399e070c7daa9a934f2e01a096c2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+172            android:exported="false"
+172-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\a\.gradle\caches\transforms-3\e4e2399e070c7daa9a934f2e01a096c2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+173-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\a\.gradle\caches\transforms-3\e4e2399e070c7daa9a934f2e01a096c2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+174
+175        <meta-data
+175-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\a\.gradle\caches\transforms-3\a819b2342cdaf3c1865d6e86846c64f7\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+176            android:name="com.google.android.gms.version"
+176-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\a\.gradle\caches\transforms-3\a819b2342cdaf3c1865d6e86846c64f7\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+177            android:value="@integer/google_play_services_version" />
+177-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\a\.gradle\caches\transforms-3\a819b2342cdaf3c1865d6e86846c64f7\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+178
+179        <provider
+179-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\a\.gradle\caches\transforms-3\e37ae63345c636720be6d5ccdb638000\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+180            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+180-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\a\.gradle\caches\transforms-3\e37ae63345c636720be6d5ccdb638000\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+181            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+181-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\a\.gradle\caches\transforms-3\e37ae63345c636720be6d5ccdb638000\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+182            android:exported="false"
+182-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\a\.gradle\caches\transforms-3\e37ae63345c636720be6d5ccdb638000\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+183            android:multiprocess="true" />
+183-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\a\.gradle\caches\transforms-3\e37ae63345c636720be6d5ccdb638000\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+184    </application>
+185
+186</manifest>

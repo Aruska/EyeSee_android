@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "874056799735",
+    "firebase_url": "https://eyesee-81b19-default-rtdb.firebaseio.com",
+    "project_id": "eyesee-81b19",
+    "storage_bucket": "eyesee-81b19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874056799735:android:51dcec7c37b353c9cc8af2",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.objectdetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNIHBOLOLUN3ofUaYxx5bljfkX-9F94A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
