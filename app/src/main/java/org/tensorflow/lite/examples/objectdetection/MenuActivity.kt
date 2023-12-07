@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.Context
+import android.os.Build
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.speech.tts.TextToSpeech.OnInitListener
@@ -11,6 +12,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import java.util.Locale
@@ -29,22 +31,18 @@ class MenuActivity : AppCompatActivity(), OnInitListener {
 
             val btnGoToHowToUse : ImageButton  = findViewById(R.id.btnGoToHowToUse)
 
+            //객체인식 화면
             btnDetection.setOnClickListener {
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             }
 
+            //사용방법 화면
             btnGoToHowToUse.setOnClickListener {
                 val intent = Intent(this, HowToUseActivity::class.java)
                 startActivity(intent)
             }
 
-
-            //객체인식 모드
-//            val detect_mode = findViewById<View>(R.id.detection) as ImageButton
-
-            // 사용방법
-//            val linclination = findViewById<View>(R.id.linclination) as ImageButton
 
 
             // TTS 초기화
@@ -68,15 +66,17 @@ class MenuActivity : AppCompatActivity(), OnInitListener {
         }
 
         //위치 권한 확인
-//        private fun hasPermission(): Boolean {
-//            return (checkSelfPermission(org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSION_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
-//                    && checkSelfPermission(org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSION_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED)
-//        }
+        @RequiresApi(Build.VERSION_CODES.M)
+        private fun hasPermission(): Boolean {
+            return (checkSelfPermission(org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSION_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
+                    && checkSelfPermission(org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSION_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED)
+        }
 
         //위치 권한 요청
-//        private fun requestPermission() {
-//            requestPermissions(arrayOf<String>(org.tensorflow.lite.examples.detection.MenuActivity.Companion.PERMISSION_FINE_LOCATION, org.tensorflow.lite.examples.detection.MenuActivity.Companion.PERMISSION_COARSE_LOCATION), org.tensorflow.lite.examples.detection.MenuActivity.Companion.PERMISSIONS_REQUEST)
-//        }
+        @RequiresApi(Build.VERSION_CODES.M)
+        private fun requestPermission() {
+            requestPermissions(arrayOf<String>(org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSION_FINE_LOCATION, org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSION_COARSE_LOCATION), org.tensorflow.lite.examples.objectdetection.MenuActivity.Companion.PERMISSIONS_REQUEST)
+        }
 
         companion object {
             private const val PERMISSION_FINE_LOCATION = Manifest.permission.ACCESS_FINE_LOCATION

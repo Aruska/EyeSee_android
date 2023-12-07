@@ -82,9 +82,9 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     }
 
     override fun onCreateView(
-      inflater: LayoutInflater,
-      container: ViewGroup?,
-      savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         _fragmentCameraBinding = FragmentCameraBinding.inflate(inflater, container, false)
 
@@ -113,6 +113,36 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     }
 
     private fun initBottomSheetControls() {
+
+
+        objectDetectorHelper.threshold  = 0.5f
+
+        objectDetectorHelper.maxResults = 4
+
+        objectDetectorHelper.numThreads = 3
+
+        // 기본값으로 설정
+
+        // 객체 감지 엄격도
+        //
+        // 0.1f 부터 0.8f까지
+        objectDetectorHelper.threshold = 0.3f
+        // 객체 감지 결과 수
+        // 1 부터  5까지
+        objectDetectorHelper.maxResults = 3
+        // 사용 쓰레드 수 (CPU 성능)
+        // 1부터 4 까지
+        objectDetectorHelper.numThreads = 2
+        // 객체 감지 할때 사용하는 옵션
+        // 0:CPU 1:GPU 2:NNAPI
+        objectDetectorHelper.currentDelegate = 0
+        // 객체 감지 모델 설정
+        // objectDetectHelper에 있는 modelName 순서
+        objectDetectorHelper.currentModel = 0
+
+        // 사용자 인터페이스 업데이트
+//        updateControlsUi()
+
 //        // When clicked, lower detection score threshold floor
 //        fragmentCameraBinding.bottomSheetLayout.thresholdMinus.setOnClickListener {
 //            if (objectDetectorHelper.threshold >= 0.1) {
@@ -192,10 +222,10 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     }
 
     // Update the values displayed in the bottom sheet. Reset detector.
-    private fun updateControlsUi() {
-//        fragmentCameraBinding.bottomSheetLayout.maxResultsValue.text =
+//    private fun updateControlsUi() {
+//        fragmentCameraBinding.maxResultsValue.text =
 //            objectDetectorHelper.maxResults.toString()
-//        fragmentCameraBinding.bottomSheetLayout.thresholdValue.text =
+//        fragmentCameraBinding.thresholdValue.text =
 //            String.format("%.2f", objectDetectorHelper.threshold)
 //        fragmentCameraBinding.bottomSheetLayout.threadsValue.text =
 //            objectDetectorHelper.numThreads.toString()
@@ -204,7 +234,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
 //        // delegate needs to be initialized on the thread using it when applicable
 //        objectDetectorHelper.clearObjectDetector()
 //        fragmentCameraBinding.overlay.clear()
-    }
+//    }
 
     // Initialize CameraX, and prepare to bind the camera use cases
     private fun setUpCamera() {
@@ -255,9 +285,9 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                             // The image rotation and RGB image buffer are initialized only once
                             // the analyzer has started running
                             bitmapBuffer = Bitmap.createBitmap(
-                              image.width,
-                              image.height,
-                              Bitmap.Config.ARGB_8888
+                                image.width,
+                                image.height,
+                                Bitmap.Config.ARGB_8888
                             )
                         }
 
@@ -297,25 +327,25 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     // Update UI after objects have been detected. Extracts original image height/width
     // to scale and place bounding boxes properly through OverlayView
     override fun onResults(
-      results: MutableList<Detection>?,
-      inferenceTime: Long,
-      imageHeight: Int,
-      imageWidth: Int
+        results: MutableList<Detection>?,
+        inferenceTime: Long,
+        imageHeight: Int,
+        imageWidth: Int
     ) {
-//        activity?.runOnUiThread {
+        activity?.runOnUiThread {
 //            fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
 //                            String.format("%d ms", inferenceTime)
-//
-//            // Pass necessary information to OverlayView for drawing on the canvas
-//            fragmentCameraBinding.overlay.setResults(
-//                results ?: LinkedList<Detection>(),
-//                imageHeight,
-//                imageWidth
-//            )
-//
-//            // Force a redraw
-//            fragmentCameraBinding.overlay.invalidate()
-//        }
+
+            // Pass necessary information to OverlayView for drawing on the canvas
+            fragmentCameraBinding.overlay.setResults(
+                results ?: LinkedList<Detection>(),
+                imageHeight,
+                imageWidth
+            )
+
+            // Force a redraw[
+            fragmentCameraBinding.overlay.invalidate()
+        }
     }
 
     override fun onError(error: String) {
